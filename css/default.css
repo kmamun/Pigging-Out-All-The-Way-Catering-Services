@@ -1,0 +1,218 @@
+/* default.css for Bongo Bazaar Wholesale */
+
+/* ===== global settings ===== */
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+background:#FFFFFF;
+width: 1300px;
+margin-top: 10px;
+margin-left: 10px;
+font-family: Times New Roman;
+font-size: 1em;
+
+
+}
+/* top level container */
+div#page {
+width: 100%;
+width: 1550px;
+
+}
+
+#image{
+    float:left;
+}
+
+
+
+/* company logo appearing at top of each page */
+div#logo {
+padding: 10px 0;
+float : left;
+}
+div#companySlogan{
+padding: 10px 0;
+color:#228B22;
+font-family: 'comic sans ms';
+}
+
+/* ===== content area for each page ===== */
+p {
+margin: 1em .2em .7em 0;
+text-align: left;
+font-size: 1em;
+}
+div#homeText {
+float:left;
+
+width: 50%;
+
+}
+
+/* ===== only main page has image at right in content area ===== */
+div#image {
+float:left;
+width: 40%;
+text-align: left;
+}
+
+div#image img {
+margin-top: 40px;
+}
+
+/* ===== pages with submenus at the left have text at the right ===== */
+div#textRight {
+float: left;
+width: 715px;
+margin-left: 5px;
+}
+
+/* classes for the always-visible menu options and the drop-down menu options */
+.mainLinks {
+padding: 0;
+margin: 0;
+clear: left;
+}
+
+/* for the always-visible menu options */
+.mainLinks li {
+padding: 0;
+margin: 0;
+float: left;
+list-style: none;
+font-family: 'CarterOneRegular';
+		height: auto;
+	line-height: 50px;
+	margin-top: 27px;
+	}
+ 
+.mainLinks li a {
+display: block;
+width: 179px;
+padding: 4px 10px;
+margin: 0 1px 0 0;;
+background-color:#404040;
+color: #FFF;
+text-align: center;
+text-decoration: none;
+}
+
+.mainLinks li a:hover {background-color: #808080;}
+
+/* for the drop-down menu options */
+.mainLinks div {
+position: absolute;
+background-color: #D3D3D3;
+border: 1px solid #D3D3D3;
+color: #DEB887;
+visibility: hidden;
+}
+
+.mainLinks div a {
+display: block;
+width: 179px;
+padding: 5px 10px;
+background-color: #708090;
+color: #DEB887;
+text-align: left;
+text-decoration: none;
+font: bold 90% Verdana;
+}
+
+.mainLinks div a:hover {
+background-color: #C0C0C0;
+color: #FFF;
+}
+
+
+/* ===== footer has both copyright notice and a short menu ===== */
+div#footer {
+background-color: #404040; 
+clear: left;
+height: 300px;
+width:92.3%;
+}
+#footer div {
+
+	float: left;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 10px;
+	width: 950px;
+}
+
+#footer div div {
+	float: left;
+	height: auto;
+	margin-left: 46px;
+    width: 286px;
+}
+
+#footer div div.first {
+	margin-left:  0;
+}
+
+#footer div div p {
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+	text-align: left;
+}
+
+#footer div div h3 {
+	color: #fcfcfc;
+	font-family: 'CarterOneRegular';
+	font-size: 20px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+#footer div div h3 a {
+	display: block;
+	height: 30px;
+	text-indent: -99999px;
+}
+
+#footer div div div {
+	height: auto;
+	margin-left: 0;
+    margin-top: 10px;
+}
+
+#footer div div div p {
+	font-size: 14px;
+	line-height: 25px;
+	margin: 0;
+}
+
+#footer div div div p span {
+	color: #000000	;
+	display: inline;
+	font-style: italic;
+}
+
+#footer div div div a {
+	display: inline-block;
+	height: 40px;
+	margin-left: 0px; 
+	padding-top: 0px;	
+	width: 35px;
+}
+
+#footer div div div a.facebook {
+	background: url(../images/facebook.png) no-repeat ;
+	margin-left: 0;
+	
+}
+
+#footer div div div a.twitter {
+	background: url(../images/twitter.png) no-repeat;
+	}
+
+
+
